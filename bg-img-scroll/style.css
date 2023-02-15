@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.bg-image {
+    width: 100%;
+    height: 100vh;
+    background: url('https://cdn.esawebb.org/archives/images/screen/weic2216b.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 160%;   
+}
+
+.container {
+        padding: 100px;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+p {
+    color: darkgray;
+}
+
+
+@media (max-width:500px) {
+    .container {
+        padding: 10px;
+    }
+    
+}
